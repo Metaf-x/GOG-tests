@@ -19,5 +19,7 @@ dependencies {
 
 
 test {
-    useJUnitPlatform()
+    useJUnitPlatform {
+        includeTags 'WEB'
+    }
 }
